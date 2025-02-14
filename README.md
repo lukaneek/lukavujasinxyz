@@ -13,7 +13,6 @@
 
 6. to run the docker image in docker desktop, run the following command: 'docker run -p 5000:3000 <nameOfProject>'
 
-
 7. to run the docker image using the docker compose.yml, run the following command: 'docker-compose up'.  Using the yml file, there's no need to run step 6.  
 
 8. 
