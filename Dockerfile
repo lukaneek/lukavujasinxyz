@@ -27,7 +27,7 @@ RUN npm run build
 FROM nginx
 
 # Copy the tagged files from the build to the production environmnet of the nginx server
-COPY --from=builder /usr/src/app/dist /usr/share/nginx/html
+COPY --from=builder /usr/src/app/build /usr/share/nginx/html
 
 # Copy nginx configuration 
 COPY --from=builder /usr/src/app/default.conf /etc/nginx/conf.d/ 
