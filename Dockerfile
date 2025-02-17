@@ -22,6 +22,7 @@ COPY . /usr/src/app
 # Run npm run build to create a production build of our application. This places the application .js file in the dist directory to be served up by the serve library.  
 RUN npm run build
 
+#PRODUCTION
 # Stage-2 Production Environment
 #Stage two serve the html and javascript file with nginx.  
 FROM nginx
@@ -35,8 +36,11 @@ COPY --from=builder /usr/src/app/default.conf /etc/nginx/conf.d/
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
-#The following is for the development enviorment, please comment out stage two production enviorment, and comment the following in for development enviornment 
-# Then we install serve. It helps you serve a static site, single page application or just a static file.
+
+# DEVELOPMENT
+# How to have dev and prod in one Dockerfile: https://dev.to/massivebrains/use-same-dockerfile-for-dev-production-1l7f
+
+# Install serve. It helps you serve a static site, single page application or just a static file.
 #RUN npm install -g serve
 
 # This is just meta data. Serve's default port is 3000.
