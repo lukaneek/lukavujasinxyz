@@ -32,6 +32,7 @@ COPY --from=builder /usr/src/app/dist /usr/share/nginx/html
 # Copy nginx configuration 
 COPY --from=builder /usr/src/app/default.conf /etc/nginx/conf.d/ 
 
+
 EXPOSE 80
 
 CMD ["nginx", "-g", "deamon off;"]
