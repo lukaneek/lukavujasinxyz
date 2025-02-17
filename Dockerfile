@@ -24,7 +24,7 @@ RUN npm run build
 
 # Stage-2 Production Environment
 #Stage two serve the html and javascript file with nginx.  
-FROM nginx
+FROM nginx:ubi
 
 # Copy the tagged files from the build to the production environmnet of the nginx server
 COPY --from=builder /usr/src/app/dist /usr/share/nginx/html/
