@@ -8,10 +8,10 @@
 
 5. Follow this document to help configure vite: https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa
 
-6. npm run dev -> is the command to run the app in its code state.
-7. npm run build -> is the command to build the react app in a .js file and move it to the /dist folder.
-8. npm run preview -> is the command to run the .js file in the /dist folder.
-9. serve -s dist -> is the command to use serve to serve up the .js file in the /dist folder. 
+6. npm run dev -> is the command to use Vite to run the app in its code state during development.
+7. npm run build -> is the command to use Vite to build the react app in a .js file and move it to the /dist folder during development.
+8. npm run preview -> is the command to use Vite to run the .js file in the /dist folder during development.
+9. serve -s dist -> is the command to use Serve to serve up the .js file in the /dist folder. 
 
 10. To prepare for docker, a docker image needs to be created.  Type the following command 'docker build -t {nameOfProject} .'.  
 
