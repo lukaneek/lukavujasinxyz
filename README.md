@@ -7,18 +7,19 @@
 4. Open the new project in VS Code and a new terminal window terminal to check in the initial react project, type 'add .', 'commit -m "first commit"', 'git push'.
 
 5. Follow this document to help configure vite: https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa
-   a. npm run dev: is the command to run the app in its code state.  
-   b. npm run build: is the command to build the react app in a .js file and move it to the /dist folder.  
-   c. npm run preview: is the command to run the .js file in the /dist folder.
-   d. serve -s dist: is the command to use serve to serve up the .js file in the /dist folder. 
 
-7. To prepare for docker, a docker image needs to be created.  Type the following command 'docker build -t {nameOfProject} .'.  
+6. npm run dev -> is the command to run the app in its code state.
+7. npm run build -> is the command to build the react app in a .js file and move it to the /dist folder.
+8. npm run preview -> is the command to run the .js file in the /dist folder.
+9. serve -s dist -> is the command to use serve to serve up the .js file in the /dist folder. 
 
-8. To run the docker image in docker desktop, run the following command: 'docker run -p 5000:3000 {nameOfProject}'
+10. To prepare for docker, a docker image needs to be created.  Type the following command 'docker build -t {nameOfProject} .'.  
 
-9. To run the docker image using the docker-compose.yml, run the following command: 'docker-compose up'.  Using the .yml file, there's no need to run the previous step.  
+11. To run the docker image in docker desktop, run the following command: 'docker run -p 5000:3000 {nameOfProject}'
 
-10. Follow the readme file starting at step 8 in the cicd-pipeline project to configure the projects EC2 instance, github CI and CD builds, etc.
+12. To run the docker image using the docker-compose.yml, run the following command: 'docker-compose up'.  Using the .yml file, there's no need to run the previous step.  
+
+13. Follow the readme file starting at step 8 in the cicd-pipeline project to configure the projects EC2 instance, github CI and CD builds, etc.
 
 
 
