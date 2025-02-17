@@ -11,7 +11,7 @@
 6. npm run dev -> is the command to use Vite to run the app in its code state during development.
 7. npm run build -> is the command to use Vite to build the react app in a .js file and move it to the /dist folder during development.
 8. npm run preview -> is the command to use Vite to run the .js file in the /dist folder during development.
-9. serve -s dist -> is the command to use Serve to serve up the .js file in the /dist folder. 
+9. npx serve -s dist -> is the command to use Serve to serve up the .js file in the /dist folder. Must install serve if you want to use this.  
 
 10. To prepare for docker, a docker image needs to be created.  Type the following command 'docker build -t {nameOfProject} .'.  
 

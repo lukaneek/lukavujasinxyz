@@ -18,7 +18,7 @@ COPY . .
 RUN npm run build
 
 # Copy the just built .js file from the stage named builder into the docker images app directory. We set the working directory to /app above.
-COPY --from=builder /app/dist ./
+#COPY --from=builder /app/dist ./
 
 # Then we install serve. It helps you serve a static site, single page application or just a static file.
 RUN npm install -g serve
@@ -27,4 +27,4 @@ RUN npm install -g serve
 EXPOSE 3000
  
 # Define the command to run your app. -s flag ensures the app is served as a single page application (SPA).
-CMD [ "serve", "-s", "dist" ]
+CMD [ "npx", "serve", "-s", "dist" ]
