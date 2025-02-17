@@ -2,7 +2,7 @@
 
 2. In the c:\\code directory, git clone the newly created github repository. 
 
-3. In the c:\\code directory, type 'npm create vite@latest {nameOfProject} -- --template react' to create a vite/react project.
+3. In the c:\\code directory, type 'npm create vite@latest {nameOfProject} -- --template react' to create a vite/react project. Vite essentially acts as a development web server, primarily used to serve you application files during development, enabling fast refresh and hot reloading.
 
 4. Open the new project in VS Code and a new terminal window terminal to check in the initial react project, type 'add .', 'commit -m "first commit"', 'git push'.
 
