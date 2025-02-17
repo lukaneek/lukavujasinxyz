@@ -35,7 +35,7 @@ COPY --from=builder /usr/src/app/default.conf /etc/nginx/conf.d/
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "deamon off;"]
+CMD ["nginx", "-g", "daemon off;"]
 
 # Then we install serve. It helps you serve a static site, single page application or just a static file.
 #RUN npm install -g serve
