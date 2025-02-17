@@ -24,7 +24,7 @@ RUN npm run build
 
 # Stage-2 Production Environment
 #Stage two serve the html and javascript file with nginx.  
-FROM nginx:alpine
+FROM nginx
 
 # Copy the tagged files from the build to the production environmnet of the nginx server
 COPY --from=builder /usr/src/app/dist /usr/share/nginx/html/
@@ -32,11 +32,10 @@ COPY --from=builder /usr/src/app/dist /usr/share/nginx/html/
 # Copy nginx configuration 
 COPY --from=builder /usr/src/app/default.conf /etc/nginx/conf.d/ 
 
-
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
-
+#The following is for the development enviorment, please comment out stage two production enviorment, and comment the following in for development enviornment 
 # Then we install serve. It helps you serve a static site, single page application or just a static file.
 #RUN npm install -g serve
 
