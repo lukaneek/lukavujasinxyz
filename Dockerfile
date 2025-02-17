@@ -20,7 +20,7 @@ RUN npm run build
 #Stage two serve the html and javascript file with nginx.  
 FROM nginx
 
-COPY --from=builder /app/dist /usr/share/nginx/html/
+COPY --from=builder /app/dist /usr/share/nginx/html
 
 EXPOSE 80
 
