@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 function App() {
   
   return (
     <>
-      <h1>dfgdfdfff</h1>
+      <h1>Luka Vujasin Homepage</h1>
+      <Link to={`/example`}>example</Link>
     </>
   )
 }
