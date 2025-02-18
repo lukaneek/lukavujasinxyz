@@ -34,6 +34,7 @@ COPY --from=builder /usr/src/app/default.conf /etc/nginx/conf.d/
 
 EXPOSE 80
 
+
 CMD ["nginx", "-g", "daemon off;"]
 #The following is for the development enviorment, please comment out stage two production enviorment, and comment the following in for development enviornment 
 # Then we install serve. It helps you serve a static site, single page application or just a static file.
