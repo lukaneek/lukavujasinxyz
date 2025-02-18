@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>Luka Vujasin Homepage</h1>
-      <Link to={`/example`}>example</Link>
+      <Link to={"/example"}>example</Link>
     </>
   )
 }
