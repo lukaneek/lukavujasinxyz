@@ -1,15 +1,28 @@
+import Profile from "./components/Profile";
+import "bootstrap/dist/css/bootstrap.min.css";
+import AboutThisApp from "./components/AboutThisApp";
+import AboutOtherApps from "./components/AboutOtherApps";
 function App() {
-  
-  return (
-    <>
-      <h1>Luka Vujasin Homepage</h1>
-      <div>
 
-      <a href="/example/">Link To Another Application</a>
-      <br/>
-      <a target="_blank" href="https://github.com/lukaneek/lukavujasinxyz">Link To This Applications Repository</a>
+  return (
+    <div style={{paddingTop:50}} class="container flex align-items-center">
+
+      <div class="d-flex align-items-center">
+          <img style={{borderRadius: 100}} src="/avatar.jpg" alt="lukas profile picture" height="120" width="100" />
+          <div class="justify-content-center">'
+            <div style={{paddingLeft: 50}}>
+              <h1>Luka Vujasin</h1>
+              <h5>luka.vujasin@gmail.com</h5>
+            </div>
+          </div>
       </div>
-    </>
+      <div>
+        <Profile/>
+        <AboutThisApp/>
+        <p/>
+        <AboutOtherApps/>
+      </div>
+    </div>
   )
 }
 
