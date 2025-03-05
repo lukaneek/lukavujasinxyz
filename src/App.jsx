@@ -12,7 +12,7 @@ function App() {
           <div class="justify-content-center">'
             <div style={{paddingLeft: 50}}>
               <h1>Luka Vujasin</h1>
-              <h5>luka.vujasin@gmail.com</h5>
+              <h5>luka.w.vujasin@gmail.com</h5>
             </div>
           </div>
       </div>
