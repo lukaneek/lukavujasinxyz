@@ -17,7 +17,7 @@
 
 11. To run the docker image in docker desktop, run the following command: 'docker run -p 5000:3000 {nameOfProject}'
 
-12. To run the docker image using the docker-compose.yml, run the following command: 'docker-compose up'.  Using the .yml file, there's no need to run the previous step.  
+12. To build and run the docker image using the docker-compose.yml, run the following command: 'docker-compose up'.  Using the .yml file, there's no need to run the previous 2 steps.  
 
 13. Follow the readme file starting at step 8 in the cicd-pipeline project to configure the projects EC2 instance, github CI and CD builds, etc.
 
