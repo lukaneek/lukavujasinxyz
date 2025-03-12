@@ -5,9 +5,9 @@ const AboutOtherApps = () => {
             <h3>About other apps</h3>
             <p>The following links are other working apps that I have created using different technologies.  Each link will take you to the app and its repository.</p>
             <p/>
-            <a href="/example/">React frontend and Express backend running on 2 ec2 instances</a>
+            <a href="/example/">React frontend and Express backend running on 2 EC2 instances</a>
             <p/>
-            <a href="/comics/">Comic book store written in Java and jsp's</a>
+            <a href="/comics/">Comic book store written in Java and JSP</a>
         </>
     );
 }
