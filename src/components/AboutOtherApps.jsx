@@ -8,6 +8,8 @@ const AboutOtherApps = () => {
             <a href="/example/">React frontend and Express backend running on 2 EC2 instances</a>
             <p/>
             <a href="/comics/">Comic book store written in Java and JSP</a>
+            <p/>
+            <a href="/pizzas/">Pizza store written in JavaScript, React and Express</a>
         </>
     );
 }
