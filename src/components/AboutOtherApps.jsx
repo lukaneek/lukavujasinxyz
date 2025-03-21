@@ -10,6 +10,8 @@ const AboutOtherApps = () => {
             <a href="/comics/">Comic book store written in Java and JSP</a>
             <p/>
             <a href="/pizzas/">Pizza store written in JavaScript, React and Express</a>
+            <p/>
+            <a href="/users/">Simple CRUD app written in React, Java and Google address verification API's</a>
         </>
     );
 }
