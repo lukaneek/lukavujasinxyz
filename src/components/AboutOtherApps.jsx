@@ -5,7 +5,7 @@ const AboutOtherApps = () => {
             <h3>About other apps</h3>
             <p>The following links are other working apps that I have created using different technologies.  Each link will take you to the app and its repository.</p>
             <p/>
-            <a href="#">COMING SOON... Flight search site written in React and Java</a>
+            <a href="/travels/">IN PROGRESS...Travel search site written in React and Java</a>
             <p/>
             <a href="/users/">Simple CRUD app written in React and Java using Google address verification API's</a>
             <p/>
