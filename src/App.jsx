@@ -17,7 +17,6 @@ function App() {
       </div>
       <div>
         <Profile/>
-        <AboutThisApp/>
         <p/>
         <AboutOtherApps/>
       </div>
