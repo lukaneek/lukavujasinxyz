@@ -5,7 +5,7 @@ const AboutOtherApps = () => {
             <h3>About other apps</h3>
             <p>The following links are other working apps that I have created using different technologies.  Each link will take you to the app and its repository.</p>
             <p/>
-            <a href="/travels/">Hotel and flight finder site written in React and Java, using Skyscanner and Google Maps APIs</a>
+            <a href="/travels/">A hotel and flight search app built with React and Java, using the Skyscanner and Google Maps APIs for real-time travel data and location services</a>
             <p/>
             <a href="/users/">Simple CRUD app written in React and Java using Google address verification API's</a>
             <p/>
